@@ -21,8 +21,8 @@ public class Persona {
 	 * @param Metodo datosPersona en el que le pasamos
 	 * una persona: nombre y edad
 	 */
-	public void datosPersona(Persona persona) {
-		System.out.println("Nombre: " + persona.nombre + " edad: " + persona.edad);
+	public  void datosPersona(Persona persona) {
+		System.out.println("Nombre: " + persona.nombre + "\nedad: " + persona.edad);
 		if (edad >= 18) {
 			System.out.println("Es mayor de edad");
 		} else {
